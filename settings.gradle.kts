@@ -1,0 +1,1 @@
+rootProject.name = "spock-v2.5-gradlekts"

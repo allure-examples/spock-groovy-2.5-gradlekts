@@ -1,1 +1,1 @@
-rootProject.name = "spock-v2.5-gradlekts"
+rootProject.name = "spock-groovy-2.5-gradlekts"

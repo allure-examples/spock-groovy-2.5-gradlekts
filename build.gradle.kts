@@ -3,7 +3,7 @@ plugins {
 }
 
 tasks.withType(Wrapper::class) {
-    gradleVersion = "8.5"
+    gradleVersion = "8.6"
 }
 
 group = "com.example.spock"
@@ -51,11 +51,11 @@ dependencies {
     
     testImplementation(platform("org.codehaus.groovy:groovy-bom:$groovyVersion"))
 
-    testImplementation(platform("org.junit:junit-bom:5.10.1"))
+    testImplementation(platform("org.junit:junit-bom:5.10.2"))
     testImplementation("org.junit.jupiter:junit-jupiter-api")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
 
-    testImplementation("org.slf4j:slf4j-simple:2.0.9")
+    testImplementation("org.slf4j:slf4j-simple:2.0.12")
 }
 
 repositories {
